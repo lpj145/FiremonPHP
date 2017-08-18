@@ -1,0 +1,120 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c2052cb358ccb4f97908f2d7458f4c2a",
+    "packages": [
+        {
+            "name": "MarcosDantas/SimpleIterator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lpj145/SimpleIterator.git",
+                "reference": "f02d521311ce98e74ac86d626b136ce65b7f44a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lpj145/SimpleIterator/zipball/f02d521311ce98e74ac86d626b136ce65b7f44a0",
+                "reference": "f02d521311ce98e74ac86d626b136ce65b7f44a0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SimpleIterator\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0+",
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Marcos Dantas",
+                    "email": "marcos.adantas@hotmail.com"
+                }
+            ],
+            "description": "Iterate array, key by key, registering functions and some you want",
+            "support": {
+                "source": "https://github.com/lpj145/SimpleIterator/tree/master",
+                "issues": "https://github.com/lpj145/SimpleIterator/issues"
+            },
+            "time": "2017-08-14 16:03:50"
+        },
+        {
+            "name": "mongodb/mongodb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mongodb/mongo-php-library.git",
+                "reference": "c1f6e23df3413490c8d6706f7e96b1a9ac168621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mongodb/mongo-php-library/zipball/c1f6e23df3413490c8d6706f7e96b1a9ac168621",
+                "reference": "c1f6e23df3413490c8d6706f7e96b1a9ac168621",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mongodb": "^1.2.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MongoDB\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com"
+                },
+                {
+                    "name": "Hannes Magnusson",
+                    "email": "bjori@mongodb.com"
+                },
+                {
+                    "name": "Derick Rethans",
+                    "email": "github@derickrethans.nl"
+                }
+            ],
+            "description": "MongoDB driver library",
+            "homepage": "https://jira.mongodb.org/browse/PHPLIB",
+            "keywords": [
+                "database",
+                "driver",
+                "mongodb",
+                "persistence"
+            ],
+            "time": "2017-08-07 22:30:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "marcosdantas/simpleiterator": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

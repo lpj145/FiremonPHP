@@ -1,0 +1,28 @@
+{
+  "name": "FiremonPHP/FiremonPHP",
+  "description": "Easy way to manipulate data to mongo from mongo!",
+  "minimum-stability": "dev",
+  "license": ["GPL-3.0+","LGPL-3.0+"],
+  "authors": [
+    {
+      "name": "Marcos Dantas",
+      "email": "marcos.adantas@hotmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/lpj145/SimpleIterator"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FiremonPHP\\": "src/"
+    },
+    "files": ["./bootstrap.php"]
+  },
+  "require": {
+    "mongodb/mongodb": "^1.1",
+    "MarcosDantas/SimpleIterator": "dev-master"
+  }
+}
