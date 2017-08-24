@@ -1,6 +1,10 @@
 {
   "name": "FiremonPHP/FiremonPHP",
   "description": "Easy way to manipulate data to mongo from mongo!",
+  "keywords": [
+    "mongodb",
+    "nosql"
+  ],
   "minimum-stability": "dev",
   "license": ["GPL-3.0+","LGPL-3.0+"],
   "authors": [
@@ -21,8 +25,16 @@
     },
     "files": ["./bootstrap.php"]
   },
+  "autoload-dev": {
+    "psr-4": {
+      "FiremonPHP\\Test\\": "tests/"
+    }
+  },
   "require": {
     "mongodb/mongodb": "^1.1",
     "MarcosDantas/SimpleIterator": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
   }
 }

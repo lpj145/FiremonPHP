@@ -6,7 +6,7 @@ porém deve ser de interesse posterior, o Firemon nasce para trazer a mesma faci
 
 
 ### Instanciando uma conexão
-```
+```php
 $CloudDriver = new \FiremonPHP\Connector\Driver\CloudDriver([
     'url' => 'localhost:27017',
     'database' => '',
@@ -23,7 +23,7 @@ $CloudDriver = new \FiremonPHP\Connector\Driver\CloudDriver([
 
 ### Adicionando dados
 
-```
+```php
 $database = new \FiremonPHP\Database();
 
 $arr = [
